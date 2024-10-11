@@ -7,7 +7,6 @@ interface AuthUserResquest{
     password: string,
 }
 
-
 class AuthUserService {
     async execute({email, password}: AuthUserResquest){
 
